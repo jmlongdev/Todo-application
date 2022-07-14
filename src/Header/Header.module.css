@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  text-align: center;
+  background: rgb(213, 88, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+
+.header h1 {
+  padding-right: 15px;
+  padding-bottom: 0px;
+}

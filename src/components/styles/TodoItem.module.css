@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  background: #ebb0b0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.button {
+  font: inherit;
+  border: 1px solid #3162ab;
+  background: #3162ab;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right: 265px;
+  transition: all 0.2s ease;
+}
+
+.button:hover,
+.button:active {
+  right: 270px;
+  background: #2188dd;
+  border-color: #2188dd;
+}
+
+.button:focus {
+  outline: none;
+}
